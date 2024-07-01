@@ -1,0 +1,85 @@
+*{
+    list-style: none;
+}
+
+.cards{
+    width: 45rem;
+    height: 15rem;
+    display: flex;
+    background-color: #16161d;
+    padding: 1rem 1.8rem;
+    border-radius: 0.6rem;
+    justify-content: space-between;
+    
+}
+
+.maincard{
+    margin: 2rem 1rem;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.btn{
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 1rem 1.3rem;
+    border-radius: 0.5rem;
+}
+.logo i{
+    font-size: 2rem;
+    margin: 1rem 1.5rem 0 0;
+    /* color:linear-gradient( #f9ce34 , #ee2a7b , #6228d7); instagram logo color code */
+}
+.content-text h1{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+
+/* media Queries */
+
+@media(max-width:768px){
+    .cards{
+        width: 30rem;
+        height: 15rem;
+        
+    }
+    .content-text h1{
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-bottom: 0.2rem;
+    }
+}
+@media(max-width:425px){
+    .cards{
+        width: 25rem;
+        height: 15rem;
+        
+    }
+    .content-text h1{
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-bottom: 0.7rem;
+    }
+}
+@media(max-width:375px){
+    .cards{
+        width: 20rem;
+        height: 15rem;
+        
+    }
+    .content-text h1{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+@media(max-width:320px){
+    .cards{
+        width: 18rem;
+        height: 15rem;
+        
+    }
+}

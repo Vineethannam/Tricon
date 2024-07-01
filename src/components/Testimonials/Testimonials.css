@@ -1,0 +1,20 @@
+.testimonials-container{
+    margin: 4rem 0 ;
+    position: relative;
+}
+.testimonial-heading{
+    margin: 1.5rem 2rem 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 5rem 0; */
+}
+.testimonial-heading h1{
+    font-weight: 500;
+}
+@media(max-width:375px){
+    .testimonial-heading{
+        margin: 2rem 0rem;
+    }
+}

@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: yellow; */
+    gap: 1rem;
+    top: 3rem;
+    position: relative;
+    padding: 1rem 2rem;
+    margin: 3rem 10px;
+    
+}
+.spn1{
+    color: #8465ff;
+}
+.topics{
+    display: grid;
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    gap: 5rem;
+    list-style: none;
+    margin: 3rem 0rem;
+    column-gap: 10rem;
+    /* background-color: blueviolet; */
+}
+
+.container ul{
+   
+    padding: 0;
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 300;
+}
+p{
+    color: #a993fe;
+}
+
+
+
+@media(max-width:769px){
+    .topics{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        gap: 3rem;
+        column-gap: 6rem;
+    }
+   .logo1{
+    display: none;
+   }
+   .logo{
+    width: 5rem;
+    height: 5rem;
+   }
+   .container ul{
+    margin:2rem 0.7rem;
+}
+.container{
+    margin: 0rem 0rem;
+}
+h1{
+    font-size: 1.7rem;
+}
+}
+@media(max-width:425px){
+    /* margin-top logo size */
+    .logo{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .topics{
+        
+        column-gap: 4rem;
+    }
+
+    h1{
+        font-size: 1.3rem;
+    }
+
+    .container{
+       padding: 2rem;
+    }
+}
+@media(max-width:375px){
+    /* margin-top logo size */
+    .logo{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    h1{
+        font-size: 1.1rem;
+    }
+
+    .container{
+       padding: 3rem 2rem;
+       margin-top: 3rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
